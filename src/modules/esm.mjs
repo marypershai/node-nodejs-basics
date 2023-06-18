@@ -8,7 +8,7 @@ import { dirname } from 'path';
 
 const require = createRequire(import.meta.url);
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(import.meta.url);
+const __dirname = dirname(__filename);
 
 const random = Math.random();
 
